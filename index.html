@@ -39,13 +39,35 @@
 </script>
 
     <script>
+    var x = +prompt('what is the value of x?');
+    var y = +prompt('value of y?');
 
-    for(var i = 0; i < 10; i++) {
-        if (i % 2 === 0) {
+
+    var max = +prompt('count to?');
+    var confirmed = confirm('click ok for even, cancel for odd');
+    var remainder;
+
+    if(confirmed) {
+        remainder = 0; //?
+        +prompt('hi');
+    }
+    else {
+        remainder = 1; //?
+        +prompt('go home!');
+    }
+
+    for(var i = 0; i < max; i++) {
+        if (i % 2 === remainder) {
         console.log(i);
+
         }
     }
 
+    </script>
+
+    <script>
+    //var x = +promt('what is the value of x?');
+    //var y = +prompt('value of y?');
 
     </script>
 </body>
